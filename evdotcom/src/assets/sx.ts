@@ -1,0 +1,93 @@
+export const palette = {
+  black: "#0D0D0D",
+  white: "#F6FDFF",
+  yellow: "#EECA00",
+  grey: "#B5BEBF",
+  slate: "#3C3F40",
+};
+
+const weight = {
+  normal: 400,
+  medium: 500,
+  semiBold: 600,
+  bold: 700,
+  extraBold: 800,
+  black: 900,
+};
+
+const noHighlight = {
+  WebkitUserSelect: "none",
+  MozUserSelect: "none",
+  msUserSelect: "none",
+  userSelect: "none",
+};
+
+export const container = {
+  display: "flex",
+  flexFlow: "row nowrap",
+  justifyContent: "center",
+  width: "100%",
+};
+
+export const column = {
+  display: "flex",
+  flexFlow: "column nowrap",
+  width: "56.25vw",
+  height: "auto",
+};
+
+export const header = {
+  ...noHighlight,
+  display: "flex",
+  flexFlow: "row nowrap",
+  justifyContent: "center",
+  alignItems: "center",
+  mt: "9.2vw",
+  paddingLeft: "0.25vw",
+  fontFamily: "owners-text, sans-serif",
+  fontWeight: weight.black,
+  fontSize: "6.45vw",
+  letterSpacing: "0.55vw",
+  color: palette.white,
+  textTransform: "uppercase",
+  nav: {
+    ...noHighlight,
+    display: "flex",
+    flexFlow: "row nowrap",
+    fontFamily: "owners-text, sans-serif",
+    mt: "-2.4vw",
+    paddingLeft: "0.65vw",
+    fontWeight: weight.medium,
+    fontSize: "2.2vw",
+    letterSpacing: "0.45vw",
+    textTransform: "uppercase",
+    button: {
+      "&:hover": {
+        cursor: "pointer",
+        opacity: "0.8",
+      },
+    },
+  },
+  divider: {
+    width: "54.9vw",
+    ml: "0.65vw",
+    height: "2px",
+    backgroundColor: palette.grey,
+  },
+};
+
+export const iconDiv = {
+  display: "flex",
+  flexFlow: "row nowrap",
+  justifyContent: "flex-end",
+  width: "54.9vw",
+  mt: "0.45vw",
+  icon: {
+    ml: "0.75vw",
+    fontSize: "1.95vw",
+    "&:hover": {
+      cursor: "pointer",
+      opacity: "0.8",
+    },
+  },
+};
