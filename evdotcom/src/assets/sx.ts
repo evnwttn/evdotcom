@@ -91,3 +91,38 @@ export const iconDiv = {
     },
   },
 };
+
+export const code = {
+  cardDiv: {
+    ...noHighlight,
+    display: "flex",
+    flexFlow: "row nowrap",
+    justifyContent: "center",
+    width: "100%",
+  },
+  card: {
+    width: "49vw",
+    height: "auto",
+  },
+  title: {
+    fontFamily: "eurostile-extended, sans-serif",
+    letterSpacing: "0.22vw",
+    fontWeight: weight.medium,
+    fontSize: "1.6vw",
+    textTransform: "uppercase",
+  },
+  subtitle: {
+    fontFamily: "owners-text, sans-serif",
+    letterSpacing: "0.05vw",
+    fontWeight: weight.normal,
+    fontSize: "0.9vw",
+    mt: "-0.4vw",
+    mb: "0.4vw",
+    color: palette.grey,
+  },
+  image: {
+    width: "100%",
+    height: "23.69vw",
+    backgroundColor: "purple",
+  },
+};
