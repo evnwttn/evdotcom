@@ -8,14 +8,6 @@ interface CardProps {
   image: any[];
 }
 
-interface CardProps {
-  title: string;
-  subtitle: string;
-  stack: string;
-  image: any[];
-  link: string;;
-}
-
 export const ArtCard = ({ title, subtitle, stack, image }: CardProps) => {
   return (
     <Box sx={sx.art.card}>

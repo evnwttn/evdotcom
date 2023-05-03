@@ -9,7 +9,7 @@ import tfu from "../img/code/tfu.png";
 
 export const codeCardData = [
   {
-    key: "co5",
+    key: "co4",
     title: "Upcoming Web App",
     subtitle: "Full-Stack Development",
     stack:
@@ -18,7 +18,7 @@ export const codeCardData = [
     image: [mpc],
   },
   {
-    key: "co4",
+    key: "co3",
     title: "Album Organizer",
     subtitle: "Full-Stack Development",
     stack:
@@ -27,7 +27,7 @@ export const codeCardData = [
     image: [ao1, ao2],
   },
   {
-    key: "co3",
+    key: "co2",
     title: "MPConnect Homepage",
     subtitle: "Web Development",
     stack: "TypeScript, React, MUI, Adobe XD",
@@ -35,7 +35,7 @@ export const codeCardData = [
     image: [mpw1, mpw2, mpw3],
   },
   {
-    key: "co2",
+    key: "co1",
     title: "Punch The Keys",
     subtitle: "Web Component Development",
     stack: "JavaScript, Vite, Lit, Tone.js",
@@ -43,7 +43,7 @@ export const codeCardData = [
     image: [ptk],
   },
   {
-    key: "co1",
+    key: "co0",
     title: "TFU",
     subtitle: "Front-End Development",
     stack: "Vanilla JavaScript",

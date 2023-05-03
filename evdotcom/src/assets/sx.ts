@@ -166,3 +166,60 @@ export const art = {
     mb: "0.4vw",
   },
 };
+
+export const audio = {
+  cardDiv: {
+    ...noHighlight,
+    display: "flex",
+    flexFlow: "row nowrap",
+    justifyContent: "center",
+    width: "100%",
+  },
+  card: {
+    display: "flex",
+    flexDirection: "row",
+    width: "45vw",
+    height: "auto",
+    mt: "2vw",
+    padding: "0.5vw",
+    border: `1px solid ${palette.slate}`,
+  },
+  art: {
+    height: "15vw",
+    width: "15vw",
+    backgroundSize: "100% auto",
+    "&:hover": {
+      cursor: "pointer",
+      opacity: "0.8",
+    },
+  },
+  info: {
+    display: "flex",
+    flexFlow: "column nowrap",
+    justifyContent: "center",
+    alignItems: "flex-start",
+    ml: "2vw",
+  },
+  title: {
+    fontFamily: "eurostile-extended, sans-serif",
+    letterSpacing: "0.22vw",
+    fontWeight: weight.medium,
+    fontSize: "1.6vw",
+    textTransform: "uppercase",
+  },
+  subtitle: {
+    fontFamily: "owners-text, sans-serif",
+    letterSpacing: "0.05vw",
+    fontWeight: weight.normal,
+    fontSize: "0.9vw",
+    mt: "-0.4vw",
+    color: palette.yellow,
+  },
+  stack: {
+    fontFamily: "owners-text, sans-serif",
+    letterSpacing: "0.05vw",
+    fontWeight: weight.normal,
+    fontSize: "0.8vw",
+    color: palette.grey,
+  },
+};

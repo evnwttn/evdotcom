@@ -23,7 +23,7 @@ export const CodeCard = ({
       <Box sx={sx.code.stack}>{stack}</Box>
       {image.map((image: any, index: number) => {
         return (
-          <Link href={link}>
+          <Link key={index} href={link}>
             <Box
               key={index}
               onClick={() => console.log(link)}
