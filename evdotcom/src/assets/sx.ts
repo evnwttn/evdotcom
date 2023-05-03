@@ -103,6 +103,7 @@ export const code = {
   card: {
     width: "49vw",
     height: "auto",
+    mb: "2vw",
   },
   title: {
     fontFamily: "eurostile-extended, sans-serif",
@@ -117,12 +118,24 @@ export const code = {
     fontWeight: weight.normal,
     fontSize: "0.9vw",
     mt: "-0.4vw",
+    color: palette.yellow,
+  },
+  stack: {
+    fontFamily: "owners-text, sans-serif",
+    letterSpacing: "0.05vw",
+    fontWeight: weight.normal,
+    fontSize: "0.8vw",
     mb: "0.4vw",
     color: palette.grey,
   },
   image: {
     width: "100%",
-    height: "23.69vw",
-    backgroundColor: "purple",
+    height: "23vw",
+    backgroundSize: "100%",
+    mb: "0.4vw",
+    "&:hover": {
+      cursor: "pointer",
+      opacity: "0.8",
+    },
   },
 };

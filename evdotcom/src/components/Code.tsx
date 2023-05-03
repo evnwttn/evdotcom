@@ -7,16 +7,20 @@ export const Code = () => {
   return (
     <Box>
       <Box sx={sx.code.cardDiv}>
-        {codeCardData.map((card: any) => {
-          return (
-            <CodeCard
-              key={card.key}
-              title={card.title}
-              subtitle={card.subtitle}
-              link={card.link}
-            />
-          );
-        })}
+        <Box>
+          {codeCardData.map((card: any) => {
+            return (
+              <CodeCard
+                key={card.key}
+                title={card.title}
+                subtitle={card.subtitle}
+                stack={card.stack}
+                link={card.link}
+                image={card.image}
+              />
+            );
+          })}
+        </Box>
       </Box>
     </Box>
   );
