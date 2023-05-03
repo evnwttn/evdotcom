@@ -139,3 +139,30 @@ export const code = {
     },
   },
 };
+
+export const art = {
+  cardDiv: {
+    ...code.cardDiv,
+  },
+  card: {
+    ...code.card,
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+  },
+  title: {
+    ...code.title,
+  },
+  subtitle: {
+    ...code.subtitle,
+  },
+  stack: {
+    ...code.stack,
+  },
+  image: {
+    width: "37.5vw",
+    height: "37.5vw",
+    backgroundSize: "100%",
+    mb: "0.4vw",
+  },
+};
