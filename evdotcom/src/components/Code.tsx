@@ -14,7 +14,9 @@ export const Code = () => {
                 key={card.key}
                 title={card.title}
                 subtitle={card.subtitle}
+                info={card.info}
                 stack={card.stack}
+                repo={card.repo}
                 link={card.link}
                 image={card.image}
               />

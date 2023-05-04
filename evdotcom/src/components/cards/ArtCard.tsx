@@ -11,9 +11,11 @@ interface CardProps {
 export const ArtCard = ({ title, subtitle, stack, image }: CardProps) => {
   return (
     <Box sx={sx.art.card}>
-      <Box sx={sx.art.title}>{title}</Box>
-      <Box sx={sx.art.subtitle}>{subtitle}</Box>
-      <Box sx={sx.art.stack}>{stack}</Box>
+      <Box sx={sx.art.info}>
+        <Box sx={sx.art.title}>{title}</Box>
+        <Box sx={sx.art.subtitle}>{subtitle}</Box>
+        <Box sx={sx.art.stack}>{stack}</Box>
+      </Box>
       {image.map((image: any, index: number) => {
         return (
           <Box

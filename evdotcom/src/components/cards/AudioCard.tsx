@@ -18,7 +18,7 @@ export const AudioCard = ({
 }: CardProps) => {
   return (
     <Box sx={sx.audio.card}>
-      <Link href={link}>
+      <Link href={link} target="_blank" rel="noopener noreferrer">
         <Box sx={{ ...sx.audio.art, backgroundImage: `url(${image})` }} />
       </Link>
       <Box sx={sx.audio.info}>

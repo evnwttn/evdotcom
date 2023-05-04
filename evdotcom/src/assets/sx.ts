@@ -1,5 +1,5 @@
 export const palette = {
-  black: "#0D0D0D",
+  black: "#161618",
   white: "#F6FDFF",
   yellow: "#EECA00",
   grey: "#B5BEBF",
@@ -34,6 +34,10 @@ export const column = {
   flexFlow: "column nowrap",
   width: "56.25vw",
   height: "auto",
+  "@media (max-width: 767px)": {
+    width: "85.25vw",
+    mr: "4vw",
+  },
 };
 
 export const header = {
@@ -50,17 +54,29 @@ export const header = {
   letterSpacing: "0.55vw",
   color: palette.white,
   textTransform: "uppercase",
+  "@media (max-width: 767px)": {
+    mt: "12.5vw",
+    fontSize: "10vw",
+    paddingLeft: "0vw",
+  },
   nav: {
     ...noHighlight,
     display: "flex",
     flexFlow: "row nowrap",
     fontFamily: "owners-text, sans-serif",
-    mt: "-2.4vw",
+    mt: "-1.6vw",
+    mb: "0.25vw",
     paddingLeft: "0.65vw",
     fontWeight: weight.medium,
     fontSize: "2.2vw",
     letterSpacing: "0.45vw",
     textTransform: "uppercase",
+    "@media (max-width: 767px)": {
+      justifyContent: "space-between",
+      width: "83vw",
+      ml: "0.5vw",
+      fontSize: "6.5vw",
+    },
     button: {
       "&:hover": {
         cursor: "pointer",
@@ -73,6 +89,9 @@ export const header = {
     ml: "0.65vw",
     height: "2px",
     backgroundColor: palette.grey,
+    "@media (max-width: 767px)": {
+      width: "83vw",
+    },
   },
 };
 
@@ -81,10 +100,29 @@ export const iconDiv = {
   flexFlow: "row nowrap",
   justifyContent: "flex-end",
   width: "54.9vw",
-  mt: "0.45vw",
+  mt: "0.8vw",
+  "@media (max-width: 767px)": {
+    mt: "2.5vw",
+    mb: "3.5vw",
+    width: "83vw",
+    justifyContent: "space-between",
+  },
+  "@media (min-width: 481px) and (max-width: 767px)": {
+    justifyContent: "flex-end",
+  },
   icon: {
-    ml: "0.75vw",
-    fontSize: "1.95vw",
+    ml: "1.5vw",
+    height: "2.5vw",
+    width: "2.5vw",
+    "@media (max-width: 480px)": {
+      height: "7.5vw",
+      width: "7.5vw",
+    },
+    "@media (min-width: 481px) and (max-width: 767px)": {
+      height: "5vw",
+      width: "5vw",
+      ml: "4.75vw",
+    },
     "&:hover": {
       cursor: "pointer",
       opacity: "0.8",
@@ -99,11 +137,17 @@ export const code = {
     flexFlow: "row nowrap",
     justifyContent: "center",
     width: "100%",
+    mt: "2vw",
   },
   card: {
-    width: "49vw",
+    width: "54.9vw",
     height: "auto",
-    mb: "2vw",
+    mb: "4vw",
+    "@media (max-width: 767px)": {
+      width: "83vw",
+      mt: "3.5vw",
+      mb: "7.5vw",
+    },
   },
   title: {
     fontFamily: "eurostile-extended, sans-serif",
@@ -111,31 +155,65 @@ export const code = {
     fontWeight: weight.medium,
     fontSize: "1.6vw",
     textTransform: "uppercase",
+    "@media (max-width: 767px)": {
+      fontSize: "3.8vw",
+    },
   },
   subtitle: {
     fontFamily: "owners-text, sans-serif",
     letterSpacing: "0.05vw",
     fontWeight: weight.normal,
     fontSize: "0.9vw",
-    mt: "-0.4vw",
+    mt: "0.1vw",
     color: palette.yellow,
+    "@media (max-width: 767px)": {
+      fontSize: "2.5vw",
+    },
   },
   stack: {
     fontFamily: "owners-text, sans-serif",
     letterSpacing: "0.05vw",
     fontWeight: weight.normal,
     fontSize: "0.8vw",
-    mb: "0.4vw",
+    mt: "0.5vw",
+    mb: "1vw",
     color: palette.grey,
+    "@media (max-width: 767px)": {
+      fontSize: "2vw",
+    },
   },
   image: {
     width: "100%",
-    height: "23vw",
+    height: "25.25vw",
     backgroundSize: "100%",
-    mb: "0.4vw",
+    mb: "0.5vw",
+    "@media (max-width: 767px)": {
+      height: "39vw",
+    },
     "&:hover": {
       cursor: "pointer",
       opacity: "0.8",
+    },
+  },
+  repo: {
+    display: "flex",
+    flexFlow: "row nowrap",
+    width: "100%",
+    justifyContent: "flex-end",
+    mt: "1vw",
+    icon: {
+      "@media (max-width: 767px)": {
+        height: "7.5vw",
+        width: "7.5vw",
+        mt: "2vw",
+      },
+      color: palette.white,
+      height: "2.5vw",
+      width: "2.5vw",
+      "&:hover": {
+        color: palette.yellow,
+        cursor: "pointer",
+      },
     },
   },
 };
@@ -143,27 +221,55 @@ export const code = {
 export const art = {
   cardDiv: {
     ...code.cardDiv,
+    "@media (max-width: 767px)": {
+      mt: "7.5vw",
+    },
   },
   card: {
     ...code.card,
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
+    "@media (max-width: 767px)": {
+      mb: "5.5vw",
+    },
+  },
+  info: {
+    display: "flex",
+    width: "37.5vw",
+    flexDirection: "column",
+    "@media (max-width: 767px)": {
+      width: "66vw",
+    },
   },
   title: {
     ...code.title,
+    "@media (max-width: 767px)": {
+      fontSize: "3.8vw",
+    },
   },
   subtitle: {
     ...code.subtitle,
+    "@media (max-width: 767px)": {
+      fontSize: "2.5vw",
+    },
   },
   stack: {
     ...code.stack,
+    "@media (max-width: 767px)": {
+      fontSize: "2vw",
+    },
   },
   image: {
     width: "37.5vw",
     height: "37.5vw",
     backgroundSize: "100%",
     mb: "0.4vw",
+    "@media (max-width: 767px)": {
+      width: "66vw",
+      height: "66vw",
+      mb: "3.5vw",
+    },
   },
 };
 
@@ -174,20 +280,32 @@ export const audio = {
     flexFlow: "row nowrap",
     justifyContent: "center",
     width: "100%",
+    mt: "2vw",
   },
   card: {
     display: "flex",
     flexDirection: "row",
-    width: "45vw",
+    width: "54.9vw",
     height: "auto",
-    mt: "2vw",
-    padding: "0.5vw",
+    mt: "1.75vw",
+    paddingTop: "1.5vw",
+    paddingBottom: "1.5vw",
     border: `1px solid ${palette.slate}`,
+    "@media (max-width: 767px)": {
+      width: "83vw",
+      mt: "5vw",
+      mb: "10vw",
+    },
   },
   art: {
-    height: "15vw",
-    width: "15vw",
+    height: "17.5vw",
+    width: "17.5vw",
+    ml: "4.8vw",
     backgroundSize: "100% auto",
+    "@media (max-width: 767px)": {
+      width: "30vw",
+      height: "30vw",
+    },
     "&:hover": {
       cursor: "pointer",
       opacity: "0.8",
@@ -198,7 +316,10 @@ export const audio = {
     flexFlow: "column nowrap",
     justifyContent: "center",
     alignItems: "flex-start",
-    ml: "2vw",
+    ml: "4.8vw",
+    "@media (max-width: 767px)": {
+      ml: "4vw",
+    },
   },
   title: {
     fontFamily: "eurostile-extended, sans-serif",
@@ -206,20 +327,96 @@ export const audio = {
     fontWeight: weight.medium,
     fontSize: "1.6vw",
     textTransform: "uppercase",
+    "@media (max-width: 767px)": {
+      fontSize: "3.8vw",
+    },
   },
   subtitle: {
     fontFamily: "owners-text, sans-serif",
     letterSpacing: "0.05vw",
     fontWeight: weight.normal,
     fontSize: "0.9vw",
-    mt: "-0.4vw",
     color: palette.yellow,
+    "@media (max-width: 767px)": {
+      fontSize: "2.5vw",
+    },
   },
   stack: {
     fontFamily: "owners-text, sans-serif",
     letterSpacing: "0.05vw",
     fontWeight: weight.normal,
     fontSize: "0.8vw",
+    mt: "0.4vw",
     color: palette.grey,
+    "@media (max-width: 767px)": {
+      mt: "0.5vw",
+      fontSize: "2vw",
+    },
+  },
+};
+
+export const contact = {
+  container: {
+    display: "flex",
+    flexFlow: "row nowrap",
+    width: "100%",
+    justifyContent: "center",
+    mt: "3.5vw",
+  },
+  email: {
+    fontFamily: "owners-text, sans-serif",
+    letterSpacing: "0.22vw",
+    fontWeight: weight.medium,
+    fontSize: "1.8vw",
+    textTransform: "uppercase",
+    textDecoration: "none",
+    color: palette.white,
+    "&:hover": {
+      color: palette.yellow,
+      cursor: "pointer",
+    },
+    "@media (max-width: 767px)": {
+      mt: "5vw",
+      fontSize: "5.5vw",
+    },
+  },
+  coordinates: {
+    fontFamily: "owners-text, sans-serif",
+    letterSpacing: "0.22vw",
+    fontWeight: weight.medium,
+    fontSize: "1vw",
+    ml: "4.55vw",
+    textTransform: "none",
+    textDecoration: "none",
+    color: palette.slate,
+    "@media (max-width: 767px)": {
+      fontSize: "3.5vw",
+      ml: "25vw",
+    },
+    "&:hover": {
+      opacity: "0.8",
+    },
+  },
+  iconBox: {
+    ...container,
+    mt: "1.5vw",
+    "@media (max-width: 767px)": {
+      mt: "5vw",
+    },
+  },
+  icon: {
+    height: "2.5vw",
+    width: "2.5vw",
+    color: palette.white,
+    mx: "0.9vw",
+    "@media (max-width: 767px)": {
+      height: "7.5vw",
+      width: "7.5vw",
+      mx: "3.5vw",
+    },
+    "&:hover": {
+      color: palette.yellow,
+      cursor: "pointer",
+    },
   },
 };
