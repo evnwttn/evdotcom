@@ -111,7 +111,7 @@ export const iconDiv = {
     justifyContent: "flex-end",
   },
   icon: {
-    ml: "1.5vw",
+    ml: "1.4vw",
     height: "2.5vw",
     width: "2.5vw",
     "@media (max-width: 480px)": {
@@ -190,12 +190,8 @@ export const code = {
     "@media (max-width: 767px)": {
       height: "39vw",
     },
-    "&:hover": {
-      cursor: "pointer",
-      opacity: "0.8",
-    },
   },
-  repo: {
+  links: {
     display: "flex",
     flexFlow: "row nowrap",
     width: "100%",
@@ -359,9 +355,39 @@ export const contact = {
   container: {
     display: "flex",
     flexFlow: "row nowrap",
-    width: "100%",
+    width: "54.8vw",
     justifyContent: "center",
+    ml: "0.65vw",
     mt: "3.5vw",
+    paddingTop: "1.5vw",
+    paddingBottom: "1.5vw",
+    border: `1px solid ${palette.slate}`,
+    "@media (max-width: 767px)": {
+      width: "83vw",
+      mt: "5vw",
+    },
+  },
+  about: {
+    display: "flex",
+    flexFlow: "column nowrap",
+    width: "100%",
+    alignItems: "center",
+    fontFamily: "owners-text, sans-serif",
+    letterSpacing: "0.05vw",
+    fontWeight: weight.normal,
+    fontSize: "1vw",
+    mt: "1vw",
+    a: {
+      color: palette.yellow,
+      textDecoration: "none",
+      "&:hover": {
+        color: palette.white,
+      },
+    },
+    "@media (max-width: 767px)": {
+      fontSize: "2vw",
+      mt: "2vw",
+    },
   },
   email: {
     fontFamily: "owners-text, sans-serif",
@@ -391,7 +417,7 @@ export const contact = {
     color: palette.slate,
     "@media (max-width: 767px)": {
       fontSize: "3.5vw",
-      ml: "25vw",
+      ml: "14vw",
     },
     "&:hover": {
       opacity: "0.8",

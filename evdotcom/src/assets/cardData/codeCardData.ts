@@ -16,7 +16,7 @@ export const codeCardData = [
     stack:
       "Stack: TypeScript, Node, Express, React, MUI, Postgres, Mapbox, AWS, XD",
     repo: "https://github.com/AbbaTek-Group",
-    link: "https://github.com/AbbaTek-Group",
+    link: "",
     image: [mpc],
   },
   {
@@ -44,7 +44,7 @@ export const codeCardData = [
     key: "co1",
     title: "Punch The Keys",
     subtitle: "Web Component Development",
-    info: "A polyphonic browser based keyboard that started as a quirky synthesizer and ended up being a reusable web component  that anyone can drop into their site with 2 lines of code. This was my first project in the Get Coding program and an excellent education in modern JavaScript.",
+    info: "A polyphonic browser based keyboard that started as a quirky synthesizer and ended up being a reusable web component that anyone can drop into their site with 2 lines of code. This was my first project in the Get Coding program and an excellent education in modern JavaScript.",
     stack: "Stack: JavaScript, Vite, Lit, Tone.js",
     repo: "https://github.com/evnwttn/punch-the-keys",
     link: "https://evnwttn.github.io/punch-the-keys/",
@@ -54,7 +54,7 @@ export const codeCardData = [
     key: "co0",
     title: "TFU",
     subtitle: "Front-End Development",
-    info: "This is a randomizer project I whipped up for my partner and I to tackle date night indecisiveness. [Y/N] returns either Yes or No, [INPT] accepts values and returns one of them, [OTPT] returns the name of one of our favourite restaurants.",
+    info: "This is a randomizer project I whipped up for my partner and I to tackle date night indecisiveness. [Y/N] returns either Yes or No, [INPT] accepts any number of values and returns one of them, [OTPT] returns the name of one of our favourite restaurants.",
     stack: "Stack: Vanilla JavaScript",
     repo: "https://github.com/evnwttn/tfu",
     link: "https://evnwttn.github.io/tfu/",

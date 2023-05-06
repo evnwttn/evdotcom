@@ -21,7 +21,7 @@ export const WorkNav = ({ portfolio, togglePortfolio }: Props) => {
           }}
         />
       </Tooltip>
-      <Tooltip title="Artwork" arrow>
+      <Tooltip title="Design" arrow>
         <RemoveRedEyeIcon
           onClick={() => togglePortfolio("art")}
           sx={{
@@ -30,7 +30,7 @@ export const WorkNav = ({ portfolio, togglePortfolio }: Props) => {
           }}
         />
       </Tooltip>
-      <Tooltip title="Audio" arrow>
+      <Tooltip title="Discography" arrow>
         <GraphicEqIcon
           onClick={() => togglePortfolio("audio")}
           sx={{

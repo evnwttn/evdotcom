@@ -28,6 +28,31 @@ export const Contact = () => {
             47.5556° N, 52.7453° W
           </Link>
         </Box>
+        <Box sx={sx.contact.about}>
+          <Box>Full-Stack Software Developer</Box>
+          <Box>
+            Currently a Software Developer @{" "}
+            <a
+              href="https://www.linkedin.com/company/abbatek/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              AbbaTek
+            </a>
+          </Box>
+          <Box>
+            Graduate of{" "}
+            <a
+              href="https://www.getcoding.ca/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Get Coding
+            </a>
+          </Box>
+          <Box>Freelance Development & Design</Box>
+          <Box>Former Chef</Box>
+        </Box>
         <Box sx={sx.contact.iconBox}>
           <Link
             href="https://github.com/evnwttn"
