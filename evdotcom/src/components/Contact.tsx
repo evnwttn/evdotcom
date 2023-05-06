@@ -51,7 +51,16 @@ export const Contact = () => {
             </a>
           </Box>
           <Box>Freelance Development & Design</Box>
-          <Box>Former Chef</Box>
+          <Box>
+            <a
+              href="https://www.fanshawec.ca/programs/mia2-music-industry-arts/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              MIA
+            </a>{" "}
+            '13
+          </Box>
         </Box>
         <Box sx={sx.contact.iconBox}>
           <Link
