@@ -33,11 +33,11 @@ export const Contact = () => {
           <Box>
             Currently a Software Developer @{" "}
             <a
-              href="https://www.linkedin.com/company/abbatek/"
+              href="https://www.milkmoovement.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              AbbaTek
+              Milk Moovement
             </a>
           </Box>
           <Box>

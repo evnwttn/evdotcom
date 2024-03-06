@@ -9,11 +9,29 @@ import ascaTBR from "../img/audio/asca-torc.jpg";
 import ccBAR from "../img/audio/cc-bar.jpg";
 import ccMON from "../img/audio/cc-mon.jpg";
 import ecKAI from "../img/art/eldercaius1.jpg";
+import ecASB from "../img/art/eldercaius2.jpg";
+import ecSD from "../img/audio/ec-super.jpg";
 import evanDMO from "../img/audio/evn-demo.jpg";
 import evanRPM from "../img/art/evnwttn1.jpg";
 import nortIMP from "../img/audio/northern.jpg";
 
 export const audioCardData = [
+  {
+    key: "au17",
+    title: "Elder Caius",
+    subtitle: "Super Destroyer (Single)",
+    stack: "Composition, Production, Guitar Performance & Mixing",
+    image: [ecSD],
+    link: "https://eldercaius.bandcamp.com/track/super-destroyer",
+  },
+  {
+    key: "au16",
+    title: "Elder Caius",
+    subtitle: "Alien Space Bats / From Below (Double Single)",
+    stack: "Composition, Production & Mixing",
+    image: [ecASB],
+    link: "https://eldercaius.bandcamp.com/album/alien-space-bats-from-below",
+  },
   {
     key: "au15",
     title: "Elder Caius",

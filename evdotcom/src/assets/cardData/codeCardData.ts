@@ -1,5 +1,6 @@
 import ao1 from "../img/code/ao1.png";
 import ao2 from "../img/code/ao2.png";
+import ao3 from "../img/code/ao3.png";
 import mpw1 from "../img/code/mpw1.png";
 import mpw2 from "../img/code/mpw2.png";
 import mpw3 from "../img/code/mpw3.png";
@@ -28,7 +29,7 @@ export const codeCardData = [
       "Stack: TypeScript, Next 13, Node, Express, React, MUI, Router, Postgres, Vercel, XD",
     repo: "https://github.com/evnwttn/ao",
     link: "https://ao-demo.vercel.app/",
-    image: [ao1, ao2],
+    image: [ao1, ao2, ao3],
   },
   {
     key: "co2",
