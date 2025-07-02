@@ -10,12 +10,21 @@ import ccBAR from "../img/audio/cc-bar.jpg";
 import ccMON from "../img/audio/cc-mon.jpg";
 import ecKAI from "../img/art/eldercaius1.jpg";
 import ecASB from "../img/art/eldercaius2.jpg";
+import ecFL from "../img/audio/ec-ecfl.png";
 import ecSD from "../img/audio/ec-super.jpg";
 import evanDMO from "../img/audio/evn-demo.jpg";
 import evanRPM from "../img/art/evnwttn1.jpg";
 import nortIMP from "../img/audio/northern.jpg";
 
 export const audioCardData = [
+  {
+    key: "au18",
+    title: "Elder Caius",
+    subtitle: "Elder Caius (Album)",
+    stack: "Composition, Production, Guitar Performance & Mixing",
+    image: [ecFL],
+    link: "https://eldercaius.bandcamp.com/album/elder-caius",
+  },
   {
     key: "au17",
     title: "Elder Caius",

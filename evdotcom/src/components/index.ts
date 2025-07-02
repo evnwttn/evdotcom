@@ -1,4 +1,3 @@
-export { Art } from "./Art";
 export { Audio } from "./Audio";
 export { Code } from "./Code";
 export { Contact } from "./Contact";

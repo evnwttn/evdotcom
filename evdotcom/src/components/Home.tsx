@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Box } from "@mui/material";
-import { Header, WorkNav, Art, Audio, Code, Contact } from "./";
+import { Header, WorkNav, Audio, Code, Contact } from "./";
 import { sx } from "../assets";
 
 export const Home = () => {
@@ -15,13 +15,7 @@ export const Home = () => {
         {nav === "work" ? (
           <Box>
             <WorkNav portfolio={portfolio} togglePortfolio={togglePortfolio} />
-            {portfolio === "art" ? (
-              <Art />
-            ) : portfolio === "audio" ? (
-              <Audio />
-            ) : (
-              <Code />
-            )}
+            {portfolio === "audio" ? <Audio /> : <Code />}
           </Box>
         ) : (
           <Contact />

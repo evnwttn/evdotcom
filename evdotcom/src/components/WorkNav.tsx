@@ -21,15 +21,6 @@ export const WorkNav = ({ portfolio, togglePortfolio }: Props) => {
           }}
         />
       </Tooltip>
-      <Tooltip title="Design" arrow>
-        <RemoveRedEyeIcon
-          onClick={() => togglePortfolio("art")}
-          sx={{
-            ...sx.iconDiv.icon,
-            color: portfolio === "art" ? sx.palette.yellow : sx.palette.white,
-          }}
-        />
-      </Tooltip>
       <Tooltip title="Discography" arrow>
         <GraphicEqIcon
           onClick={() => togglePortfolio("audio")}

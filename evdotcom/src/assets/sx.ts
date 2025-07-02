@@ -214,61 +214,6 @@ export const code = {
   },
 };
 
-export const art = {
-  cardDiv: {
-    ...code.cardDiv,
-    "@media (max-width: 767px)": {
-      mt: "7.5vw",
-    },
-  },
-  card: {
-    ...code.card,
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "center",
-    "@media (max-width: 767px)": {
-      mb: "5.5vw",
-    },
-  },
-  info: {
-    display: "flex",
-    width: "37.5vw",
-    flexDirection: "column",
-    "@media (max-width: 767px)": {
-      width: "66vw",
-    },
-  },
-  title: {
-    ...code.title,
-    "@media (max-width: 767px)": {
-      fontSize: "3.8vw",
-    },
-  },
-  subtitle: {
-    ...code.subtitle,
-    "@media (max-width: 767px)": {
-      fontSize: "2.5vw",
-    },
-  },
-  stack: {
-    ...code.stack,
-    "@media (max-width: 767px)": {
-      fontSize: "2vw",
-    },
-  },
-  image: {
-    width: "37.5vw",
-    height: "37.5vw",
-    backgroundSize: "100%",
-    mb: "0.4vw",
-    "@media (max-width: 767px)": {
-      width: "66vw",
-      height: "66vw",
-      mb: "3.5vw",
-    },
-  },
-};
-
 export const audio = {
   cardDiv: {
     ...noHighlight,

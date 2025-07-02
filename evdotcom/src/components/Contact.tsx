@@ -29,9 +29,8 @@ export const Contact = () => {
           </Link>
         </Box>
         <Box sx={sx.contact.about}>
-          <Box>Full-Stack Software Developer</Box>
           <Box>
-            Currently a Software Developer @{" "}
+            Full-Stack Developer II @{" "}
             <a
               href="https://www.milkmoovement.com/"
               target="_blank"
@@ -41,7 +40,7 @@ export const Contact = () => {
             </a>
           </Box>
           <Box>
-            Graduate of{" "}
+            Alumni / Software Development Coach at{" "}
             <a
               href="https://www.getcoding.ca/"
               target="_blank"
