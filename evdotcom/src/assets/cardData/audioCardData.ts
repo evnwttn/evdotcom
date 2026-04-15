@@ -12,16 +12,25 @@ import ecKAI from "../img/art/eldercaius1.jpg";
 import ecASB from "../img/art/eldercaius2.jpg";
 import ecFL from "../img/audio/ec-ecfl.png";
 import ecSD from "../img/audio/ec-super.jpg";
+import ecMS from "../img/audio/ec-mach.jpg";
 import evanDMO from "../img/audio/evn-demo.jpg";
 import evanRPM from "../img/art/evnwttn1.jpg";
 import nortIMP from "../img/audio/northern.jpg";
 
 export const audioCardData = [
   {
+    key: "au19",
+    title: "Elder Caius",
+    subtitle: "Machinations / Symmetry",
+    stack: "Composition, Production, Guitar, Mixing & Mastering",
+    image: [ecMS],
+    link: "https://eldercaius.bandcamp.com/album/machinations-symmetry",
+  },
+  {
     key: "au18",
     title: "Elder Caius",
     subtitle: "Elder Caius (Album)",
-    stack: "Composition, Production, Guitar Performance & Mixing",
+    stack: "Composition, Production, Guitar & Mixing",
     image: [ecFL],
     link: "https://eldercaius.bandcamp.com/album/elder-caius",
   },
@@ -29,7 +38,7 @@ export const audioCardData = [
     key: "au17",
     title: "Elder Caius",
     subtitle: "Super Destroyer (Single)",
-    stack: "Composition, Production, Guitar Performance & Mixing",
+    stack: "Composition, Production, Guitar & Mixing",
     image: [ecSD],
     link: "https://eldercaius.bandcamp.com/track/super-destroyer",
   },
@@ -61,7 +70,7 @@ export const audioCardData = [
     key: "au13",
     title: "Ascariasis",
     subtitle: "Kintsukuroi (EP)",
-    stack: "Vocal Performance & Recording, Co-Producer, Lyrics",
+    stack: "Vocal Performance & Engineering, Co-Producer, Lyrics",
     image: [ascaKIN],
     link: "https://ascariasis.bandcamp.com/album/kintsukuroi",
   },
@@ -85,7 +94,7 @@ export const audioCardData = [
     key: "au10",
     title: "Ascariasis",
     subtitle: "Concrete (Single)",
-    stack: "Vocal Performance & Recording, Co-Producer, Lyrics",
+    stack: "Vocal Performance & Engineering, Co-Producer, Lyrics",
     image: [ascaCON],
     link: "https://ascariasis.bandcamp.com/track/concrete",
   },

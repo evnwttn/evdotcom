@@ -30,13 +30,13 @@ export const Contact = () => {
         </Box>
         <Box sx={sx.contact.about}>
           <Box>
-            Full-Stack Developer II @{" "}
+            Senior Software Developer @{" "}
             <a
-              href="https://www.milkmoovement.com/"
+              href="https://www.netbenefitsoftware.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Milk Moovement
+              NetBenefit Software
             </a>
           </Box>
           <Box>
